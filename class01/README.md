@@ -1,3 +1,5 @@
+JeongJinhee(Jeongdavid)
+
 # Class 01
 
 * AI (Train / Inference) & OpenVINO 강의 및 실습
