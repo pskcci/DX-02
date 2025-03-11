@@ -41,7 +41,7 @@
 | 06 LeeHakSeong (Regenmob) | n/a | - | - | - | - | litcoder |
 | 07 LimSeungjun (limseungjunn) | n/a | - | - | - | - | litcoder |
 | 08 JangMinjun  (jigbon7246) | n/a | - | - | - | - | litcoder |
-| 09 KimYoungHee (abcde) | n/a | - | - | - | - | litcoder |
+| 09 JeongJinhee (Jeongdavid) | n/a | - | - | - | - | litcoder |
 | 10 HwangYunHwan (yunan48) | n/a | - | - | - | - | litcoder |
 | 11 KimYoungHee (abcde) | n/a | - | - | - | - | litcoder |
 | 12 KimYoungHee (abcde) | n/a | - | - | - | - | litcoder |
