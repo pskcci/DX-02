@@ -45,7 +45,7 @@
 | 04 KimYoungHee (abcde) | n/a | - | - | - | - | - | max5982 |
 | 05 KimYoungHee (abcde) | n/a | - | - | - | - | - | max5982 |
 | 06 LeeHakSeong (Regenmob) | n/a | - | - | - | - | - | max5982 |
-| 07 KimYoungHee (abcde) | n/a | - | - | - | - | - | max5982 |
+| 07 LimSeungjun (limseungjunn) | n/a | - | - | - | - | - | max5982 |
 | 08 JangMinjun  (jigbon7246) | n/a | - | - | - | - | - | max5982 |
 | 09 KimYoungHee (abcde) | n/a | - | - | - | - | - | max5982 |
 | 10 HwangYunHwan (yunan48) | n/a | - | - | - | - | - | max5982 |
