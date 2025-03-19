@@ -28,4 +28,4 @@ cv2.imshow('4', output4)
 cv2.imshow('5', output5)
 cv2.imshow('6', output6)
 cv2.imshow('7', output7)
-cv2.waitKey(0)
+cv2.waitKey(0) #!
