@@ -13,7 +13,6 @@ from iotdemo import FactoryController, MotionDetector
 FORCE_STOP = False
 
 def thread_cam1(q):
- 
     cMotion = MotionDetector()
     cMotion.load_preset("/home/yun/workspace/smart-factory/resources/motion.cfg")
     cap = cv2.VideoCapture("/home/yun/workspace/smart-factory/resources/conveyor.mp4")
@@ -21,7 +20,6 @@ def thread_cam1(q):
     while not FORCE_STOP:
         sleep(0.03)
         ret, frame = cap.read()
-        q.put(("cam1", frame)) 
         if not ret:
             break
 
@@ -30,11 +28,18 @@ def thread_cam1(q):
         if motion_detected is not None and motion_detected.any():  # 수정된 부분
             q.put(("Cam1_detected", frame))  # 움직임 감지 시 저장
 
-         # Cam1 영상 큐 저장
+        q.put(("cam1", frame))  # Cam2 영상 큐 저장
 
     cap.release()
     q.put(('DONE', None))  # 종료 신호 전달
 
+#         if cMotion.detect(frame):
+#             q.put(("Cam1_detected", frame))  # 움직임 감지 시 저장
+
+#         q.put(("cam1", frame))  # Cam1 영상 큐 저장
+
+
+def thread_cam2(q):
     cMotion = MotionDetector()
     cMotion.load_preset("/home/yun/workspace/smart-factory/resources/motion.cfg")
     cap = cv2.VideoCapture("/home/yun/workspace/smart-factory/resources/conveyor.mp4")
